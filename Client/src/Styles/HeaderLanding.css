@@ -1,0 +1,28 @@
+
+.Contenedor_Header_Landing{
+    padding: 30px 50px 30px 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.Menu_Landing{
+    display: flex;
+}
+
+.Menu_Landing{
+    display: flex;
+    justify-content: right;
+    gap: 60px;
+    align-items: center;
+}
+
+.Btn_Registrate{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #FFFF00;
+    padding: 15px;
+    border-radius: 100vmax;
+    width: 150px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

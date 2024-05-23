@@ -1,0 +1,19 @@
+
+.Tema{
+    width: 10%;
+    -overflow: hidden;
+
+    
+    
+}
+
+.Tema img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+
+.select{
+    transform: translateY(-20px);
+}
