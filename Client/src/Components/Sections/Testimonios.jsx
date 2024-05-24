@@ -1,5 +1,6 @@
 import "../../Styles/Testimonio.css"
 import { CajaTestimonio } from "../Cajas/CajasTestimonios"
+import { FooterLanding } from "../Footers/FooterLanding"
 
 export function Testimonios(){
     return(

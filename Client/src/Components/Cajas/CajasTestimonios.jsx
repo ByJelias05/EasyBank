@@ -9,7 +9,7 @@ export function CajaTestimonio(){
                 <h3>Horacio Vazque</h3>
             </div>
             <div className="Testimonio">
-                <p><strong>"</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, nostrum. Nisi ratione asperiores eligendi maiores voluptate similique, ipsa harum iusto incidunt aliquid iure aut perferendis dignissimos. Rerum sint nemo voluptatem!<strong>"</strong></p>
+                <p><strong>"</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, nostrum. Nisi ratione asperiores eligendi maiores voluptate similique, ipsa harum iusto incidunt aliquid iure aut perferendis dignissimos. Rerum sint nemo voluptatem! <strong>"</strong></p>
             </div>
         </div>
     )

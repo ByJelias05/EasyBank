@@ -1,4 +1,5 @@
 
+import { FooterLanding } from '../Components/Footers/FooterLanding'
 import { HeaderLanding } from '../Components/Headers/HeaderLanding'
 import { Beneficios } from '../Components/Sections/Beneficios'
 import { EasyBank } from '../Components/Sections/EasyBank'
@@ -17,6 +18,7 @@ function App() {
           <EasyBank/>
           <Beneficios/>
           <Testimonios/>
+          <FooterLanding/>
         </div>
      </div>
     </>

@@ -1,7 +1,7 @@
 
 
 .Contenedor_Testimonios_Landing{
-    margin: 70px 0px 0px 50px;
+    margin: 0px 0px 0px 50px;
     height: 100vh;
 }
 
@@ -39,4 +39,6 @@
     flex-wrap: wrap;
     gap: 30px;
 }
+
+
 
