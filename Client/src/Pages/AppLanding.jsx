@@ -2,6 +2,7 @@
 import { HeaderLanding } from '../Components/Headers/HeaderLanding'
 import { Beneficios } from '../Components/Sections/Beneficios'
 import { EasyBank } from '../Components/Sections/EasyBank'
+import { Testimonios } from '../Components/Sections/Testimonios'
 import '../Styles/App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <div>
           <EasyBank/>
           <Beneficios/>
+          <Testimonios/>
         </div>
      </div>
     </>
