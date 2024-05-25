@@ -1,4 +1,4 @@
-import image from "../../Images/Testimonio.png"
+import image from "../../Images/g.jpg"
 import "../../Styles/Cajas.css"
 
 export function CajaTestimonio(){

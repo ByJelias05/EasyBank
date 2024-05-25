@@ -1,8 +1,7 @@
 import "../../Styles/Cajas.css"
 
 import image1 from "../../Images/Beneficio3.jpg"
-import image2 from "../../Images/mipymes_Covid19b_resized.jpg"
- import image3 from "../../Images/tata.png"
+
 
 export function CajasBeneficios(){
     return(
