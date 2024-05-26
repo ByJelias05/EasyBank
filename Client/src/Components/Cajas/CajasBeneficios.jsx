@@ -5,12 +5,8 @@ import { useEffect, useState } from "react"
 
 export function CajasBeneficios({Image, Titulo, Parrafo}){
 
-    
-    useEffect(() =>{
-        console.log(Titulo)
-    },[])
 
-    return(
+return(
         <div className="Contenedor_Cajas_Beneficios">
             <div className="Imagen_Beneficio">
                  <img src={Image} alt="" /> 

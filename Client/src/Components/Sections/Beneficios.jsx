@@ -5,11 +5,10 @@ import { useEffect, useState } from "react"
 
 export function Beneficios({Data}){
 
-    const [Beneficios, setBeneficios] = useState([Data.Beneficios])
+    const [Beneficios, setBeneficios] = useState(Data.Beneficios)
 
     useEffect(() =>{
         setBeneficios(Data.Beneficios)
-        console.log(Beneficios)
     },[])
 
     return(

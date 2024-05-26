@@ -2,7 +2,7 @@
 
 .Contenedor_Testimonios_Landing{
     margin: 0px 0px 0px 50px;
-    height: 100vh;
+    -height: 100vh;
 }
 
 .Titulo_Testimonios {
@@ -35,8 +35,8 @@
 .Contenedor_Testimonios{
     width: 90%;
     margin: 150px auto;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
 
