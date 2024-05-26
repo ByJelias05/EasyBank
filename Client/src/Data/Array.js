@@ -48,17 +48,17 @@ export const DataEasyBank = {
         {
             Titulo: 'Servicio de ahorro',
             Parrafo: 'Con el Servicio de Ahorro de Easy Bank, gestionar tus ahorros es fácil y seguro. Ofrecemos cuentas con tasas competitivas, accesibles en todo momento. Establece objetivos, haz seguimientos y automatiza depósitos para lograr tus metas financieras con eficiencia y tranquilidad.',
-            Image: '../../Images/Beneficio1.png'
+            Image: '../../public/Images/Beneficio1.png'
         },
         {
             Titulo: 'Ayuda para negociantes',
             Parrafo: 'Ayuda para Negociantes es un servicio integral ofrecido por Easy Bank, diseñado específicamente para satisfacer las necesidades financieras de empresarios y emprendedores.',
-            Image: '../../Images/Beneficio2.jpg'
+            Image: '../../public/Images/Beneficio2.jpg'
         },
         {
             Titulo: 'Pagos de servicio online',
             Parrafo: 'Los Pagos de Servicio Online de Easy Bank ofrecen una manera conveniente y segura de administrar tus facturas y gastos desde la comodidad de tu hogar o negocio. ',
-            Image: '../../Images/Beneficio3.jpg'
+            Image: '../../public/Images/Beneficio3.jpg'
         },
 
     ],

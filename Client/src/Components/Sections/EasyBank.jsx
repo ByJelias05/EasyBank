@@ -13,13 +13,9 @@ export function EasyBank({Data}){
     const [Slide, setSlide] = useState([]);
 
     useEffect(() =>{
-        console.log(Data["Sliders"])
         setSlide([(Data["Sliders"].find((value) => value.id == 1))])
-    },[])
-
-    //const dara = [(Data["Sliders"].find((value) => value.id == 1))]
+    },[]);
    
-
     const onClick = (id) =>{
         setSlide([(Data["Sliders"].find((value) => value.id == id))])
     }

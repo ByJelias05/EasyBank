@@ -28,7 +28,7 @@ function App() {
         </div>
         <div>
           <EasyBank Data={DataEasyBank}/>
-          <Beneficios  Data={Data}/>
+          <Beneficios  Data={DataEasyBank}/>
           <Testimonios Data={Data}/>
           <FooterLanding/>
         </div>

@@ -1,17 +1,23 @@
 import "../../Styles/Cajas.css"
 
-import image1 from "../../Images/Beneficio3.jpg"
+//import image1 from "../../Images/Beneficio3.jpg"
+import { useEffect, useState } from "react"
 
+export function CajasBeneficios({Image, Titulo, Parrafo}){
 
-export function CajasBeneficios(){
+    
+    useEffect(() =>{
+        console.log(Titulo)
+    },[])
+
     return(
         <div className="Contenedor_Cajas_Beneficios">
             <div className="Imagen_Beneficio">
-                 <img src={image1} alt="" /> 
+                 <img src={Image} alt="" /> 
 
                     <div className="Informacion_Beneficio">
-                        <h5>Easy Bank</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dicta modi quaerat labore eos velit voluptatem maxime in at consequuntur cum facilis eligendi, illo nisi impedit quisquam? Odit, molestiae rerum!</p>
+                        <h5>{Titulo}</h5>
+                        <p>{Parrafo}</p>
                     </div>
             </div>
             
