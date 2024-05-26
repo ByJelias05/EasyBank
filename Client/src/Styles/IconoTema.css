@@ -2,9 +2,7 @@
 .Tema{
     width: 10%;
     -overflow: hidden;
-
-    
-    
+    cursor: pointer;
 }
 
 .Tema img{

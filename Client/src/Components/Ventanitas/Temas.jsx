@@ -4,11 +4,32 @@ import image1 from "../../Images/Tema1.png"
 // import image4 from "../../Images/Tema4.png"
 import "../../Styles/IconoTema.css"
 
-export function Tema(props){
+import { useEffect } from "react"
+
+export function Tema({status, Acerca, onCli, Image}){
+
+    useEffect(() =>{
+      
+    })
+
+    const Verificar_Tema = () =>{
+        if(Acerca == "EasyBank"){
+            onCli(1)
+        }
+        else if(Acerca == "Uso"){
+            onCli(2)
+        }
+        else if(Acerca == "Seguridad"){
+            onCli(3)
+        }
+        else if(Acerca == "Servicio"){
+            onCli(4);
+        }
+    }
+
     return(
         <div className="Tema">
-            <img className={props.status} src={image1} alt="" />
-            
+            <img onClick={Verificar_Tema} className={status} src={Image} alt="" />
         </div>
     )
 }

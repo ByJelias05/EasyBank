@@ -1,6 +1,8 @@
-export const DataEasyBank = [
+//import image from '../../public/Images/'
 
-    Sliders = [
+export const DataEasyBank = {
+
+    Sliders: [
 
         {
             id: 1,
@@ -9,7 +11,7 @@ export const DataEasyBank = [
             TituloL2: 'EL BANCO ONLINE MAS SEGURO',
             TituloL3: 'Y EFICAZ DE LA REGION.',
             Parrafo: 'En Easy Bank, combinamos seguridad de vanguardia y eficiencia insuperable para ofrecerte una experiencia bancaria sin complicaciones. Disfruta de transacciones rápidas y seguras con la confianza de que tus datos están protegidos. ¡Descubre por qué somos el líder en servicios bancarios online y di "¡Wow!" con cada uso!',
-            Image: '../../Images/Tema1.png'
+            Image: '../../public/Images/Tema1.png'
         },
         {
             id: 2,
@@ -18,7 +20,7 @@ export const DataEasyBank = [
             TituloL2: 'GESTIONA TUS FINANZAS ONLINE DE FORMA',
             TituloL3: 'RÁPIDA, FÁCIL Y CONVENIENTE.',
             Parrafo: 'Con Easy Bank, administrar tu dinero nunca ha sido tan sencillo. Nuestra plataforma intuitiva y accesible te permite realizar todas tus operaciones bancarias en segundos, desde cualquier lugar y en cualquier momento.',
-            Image: '../../Images/Tema3.png'
+            Image: '../../public/Images/Tema3.png'
         },
         {
             id: 3,
@@ -27,7 +29,7 @@ export const DataEasyBank = [
             TituloL2: 'TU BANCO ONLINE MÁS SEGURO CON',
             TituloL3: 'PROTECCIÓN AVANZADA PARA TUS FINANZAS',
             Parrafo: 'En Easy Bank, tu seguridad es nuestra máxima prioridad. Utilizamos las tecnologías de encriptación más avanzadas y sistemas de autenticación robustos para proteger cada transacción y mantener tus datos seguros.',
-            Image: '../../Images/Tema2.png'
+            Image: '../../public/Images/Tema2.png'
         },
         {
             id: 4,
@@ -36,12 +38,12 @@ export const DataEasyBank = [
             TituloL2: 'BRINDA SERVICIOS BANCARIOS COMPLETOS',
             TituloL3: 'Y EFICIENTES PARA TUS NECESIDADES',
             Parrafo: 'Easy Bank te ofrece una gama completa de servicios bancarios digitales diseñados para satisfacer todas tus necesidades financieras.',
-            Image: '../../Images/Tema4.png'
+            Image: '../../public/Images/Tema4.png'
         }
 
     ],
 
-    Beneficios = [
+    Beneficios: [
 
         {
             Titulo: 'Servicio de ahorro',
@@ -61,7 +63,7 @@ export const DataEasyBank = [
 
     ],
 
-    Testimonios = [
+    Testimonios: [
 
         {
             Nombre: 'Horacio Vazque',
@@ -80,4 +82,4 @@ export const DataEasyBank = [
         },
 
     ]
-]
+}
