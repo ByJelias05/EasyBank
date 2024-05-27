@@ -24,7 +24,7 @@ export function EasyBank({Data}){
         <div>
             {
                 Slide.map((items) =>(
-                    <div className="Contenedor_Info_Landing">
+                    <div className="Contenedor_Info_Landing" id="Easy Bank">
                 <div className="Panel_Izquierdo_Landing">
                     <div className="Informaciones_EasyBank">
                         <h3 className="Titulo">{items.TituloL1}</h3>

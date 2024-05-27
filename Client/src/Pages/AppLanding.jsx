@@ -19,14 +19,14 @@ function App() {
   
   })
 
-
+ 
   return (
     <>
      <div className='Contenedor_LandingPage'>
-        <div className='pp'>
+        <div className='Contenedor_Header_Landing_Page'>
           <HeaderLanding/>
         </div>
-        <div>
+        <div className='Contenedor_Sections_Landing_Page'>
           <EasyBank Data={DataEasyBank}/>
           <Beneficios  Data={DataEasyBank}/>
           <Testimonios Data={DataEasyBank}/>

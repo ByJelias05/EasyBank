@@ -11,4 +11,10 @@
     height: auto;
     min-height: 100vh;
     color: #fff;
+    display: grid;
+    grid-template-rows: 1fr 16fr;
+}
+
+.Contenedor_Header_Landing_Page{
+
 }
