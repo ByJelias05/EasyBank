@@ -10,7 +10,6 @@ export function Testimonios({Data}){
 
     useEffect(() =>{
         setTestimonios([Data.Testimonios])
-        console.log([Data.Testimonios])
     },[])
 
     return(

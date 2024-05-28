@@ -14,16 +14,16 @@ export function Tema({status, Acerca, onCli, Image}){
 
     const Verificar_Tema = () =>{
         if(Acerca == "EasyBank"){
-            onCli(1)
+            onCli(1, "EasyBank")
         }
         else if(Acerca == "Uso"){
-            onCli(2)
+            onCli(2, "Uso")
         }
         else if(Acerca == "Seguridad"){
-            onCli(3)
+            onCli(3, "Seguridad")
         }
         else if(Acerca == "Servicio"){
-            onCli(4);
+            onCli(4, "Servicio");
         }
     }
 

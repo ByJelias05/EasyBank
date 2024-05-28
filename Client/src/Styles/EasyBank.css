@@ -56,3 +56,53 @@
     display: flex;
     gap: 25px;
 }
+
+
+.animated{
+    animation: animar .3s linear;
+}
+.animated2{
+    animation: animar2 .3s linear;
+}
+.animated3{
+    animation: animar3 .3s linear;
+}
+.animated4{
+    animation: animar4 .3s linear;
+}
+
+@keyframes animar {
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(-0px);
+    }
+}
+
+@keyframes animar2 {
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(-0px);
+    }
+}
+
+@keyframes animar3 {
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(-0px);
+    }
+}
+
+@keyframes animar4 {
+    0%{
+        transform: scale(0.4);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
