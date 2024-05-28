@@ -12,11 +12,11 @@ return(
                  <img src={Image} alt="" /> 
 
                     <div className="Informacion_Beneficio">
-                        <h5>{Titulo}</h5>
-                        <p>{Parrafo}</p>
+                        <h5 className="Titulo_Beneficio">{Titulo}</h5>
+                        <p className="Parrafo_Beneficio">{Parrafo}</p>
                     </div>
             </div>
             
         </div>
     )
-}
+} 

@@ -30,7 +30,7 @@ export function Beneficios({Data}){
                         </>
                         
                     ))
-                }
+                } 
             </div>
         </div>
     )
