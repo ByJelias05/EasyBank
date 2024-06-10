@@ -1,6 +1,7 @@
 import { Btn_Header_Landing } from "../Btns/BtnHeaderLanding";
 import { Logo } from "../Logo/Logo";
 import "../../Styles/HeaderLanding.css"
+import {Link} from "react-router-dom"
 
 import { useState } from "react";
 
@@ -20,7 +21,7 @@ export function HeaderLanding(){
                 <Btn_Header_Landing Menu={"Beneficios"} Fuction={setEstado} estado={estado == "Beneficios" ? "active" : "Desactive"}/>
                 <Btn_Header_Landing Menu={"Testimonios"} Fuction={setEstado} estado={estado == "Testimonios" ? "active" : "Desactive"}/>
 
-                <button onClick={() =>{alert(estado)}} className="Btn_Registrate">Registrate</button>
+                <a href="#Login" className="Btn_Registrate">Registrate</a>
             </div>
         </div>
     )

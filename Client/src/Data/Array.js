@@ -27,7 +27,7 @@ export const DataEasyBank = {
             Tema: 'Seguridad',
             TituloL1: 'Easy Bank',
             TituloL2: 'TU BANCO ONLINE MÁS SEGURO CON',
-            TituloL3: 'PROTECCIÓN PARA TUS FINANZAS',
+            TituloL3: 'PROTECCIÓN PARA TUS FINANZAS.',
             Parrafo: 'En Easy Bank, tu seguridad es nuestra máxima prioridad. Utilizamos las tecnologías de encriptación más avanzadas y sistemas de autenticación robustos para proteger cada transacción y mantener tus datos seguros.',
             Image: '../../public/Images/Tema2.png'
         },
@@ -36,7 +36,7 @@ export const DataEasyBank = {
             Tema: 'Servicio',
             TituloL1: 'Easy Bank',
             TituloL2: 'BRINDA SERVICIOS BANCARIOS',
-            TituloL3: 'EFICIENTES PARA TUS NECESIDADES',
+            TituloL3: 'EFICIENTES PARA TUS NECESIDADES.',
             Parrafo: 'Easy Bank te ofrece una gama completa de servicios bancarios digitales diseñados para satisfacer todas tus necesidades financieras. Ademas de poder pagar tus necesidades desde tu comodidad.',
             Image: '../../public/Images/Tema4.png'
         }

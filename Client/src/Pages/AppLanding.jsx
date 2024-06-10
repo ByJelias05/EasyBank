@@ -9,8 +9,9 @@ import '../Styles/App.css'
 import {DataEasyBank} from "../Data/Array"
 
 import { useEffect, useState } from 'react'
+import { Login } from '../Components/Sections/Login'
 
-function App() {
+export function App() {
 
   const [Data, setData] = useState([]);
 
@@ -29,6 +30,7 @@ function App() {
         <div className='Contenedor_Sections_Landing_Page'>
           <EasyBank Data={DataEasyBank}/>
           <Beneficios  Data={DataEasyBank}/>
+          <Login/>
           <Testimonios Data={DataEasyBank}/>
           <FooterLanding/>
         </div>
@@ -36,5 +38,3 @@ function App() {
     </>
   )
 }
-
-export default App
