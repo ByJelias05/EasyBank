@@ -1,14 +1,32 @@
 import "../../Styles/Login.css"
 import {useState} from "react"
 import { CreateUser } from "../Cajas/CajaCreateUser";
+import axios from "axios"
+
 
 export function Login({Menu}){
 
     const [ActivarCrear, setActivarCrear] = useState(false);
 
+    const [Correo, setCorreo] = useState("");
+    const [Contraseña, setContraseña] = useState("");
+
     const ActivarCrearCuenta = () =>{
         setActivarCrear(!ActivarCrear);
     }
+
+    const info = () =>{
+        axios.post("http://localhost:3001/Login", 
+        {
+            correo: Correo,
+            contraseña: Contraseña
+
+        }).then((response) => {
+            alert(response.data.estado);
+        })
+    }
+
+    
 
     return(
         <div className="Contenedor_Login" id="Login">
@@ -19,9 +37,10 @@ export function Login({Menu}){
                             <CreateUser/>
                         :
                         <>
-                            <input type="text" placeholder="Usuario"/>
-                            <input type="text" placeholder="Contraseña"/>
-                            <button>Iniciar sesion</button>
+                            <h1>Iniciar Sesion</h1>
+                            <input type="text" onChange={(e) =>{setCorreo(e.target.value)}} placeholder="Usuario"/>
+                            <input type="text" onChange={(e) =>{setContraseña(e.target.value)}} placeholder="Contraseña"/>
+                            <button onClick={info}>Iniciar sesion</button>
                         </>
                     }
                 </div>
