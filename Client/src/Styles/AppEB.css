@@ -1,5 +1,227 @@
 .ContenedorApp{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background: black;
+}
+
+.Contenedor_General_App{
+    display: grid;
+    grid-template-rows: 6fr 1fr;
+    padding: 25px;
+    
+    gap: 25px;
+}
+
+.Servicio_Formulario{
+    display: grid;
+    grid-template-columns: 64% 36%;
+}
+
+
+
+
+
+                                                                /* Servicios */
+
+.Contenedor_Servicios_App{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Contenedor_Servicios_App .Saludo{
+    text-align: center;
+}
+.Contenedor_Servicios_App .Saludo h1:nth-child(1){
+    color: #FFFF00;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.Contenedor_Servicios_App .Saludo h1:nth-child(2){
+    color: #fff;
+    font-size: 40px;
+}
+.Contenedor_Servicios_App .Barra_Busqueda{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.Contenedor_Servicios_App .Barra_Busqueda h3{
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+}
+.Contenedor_Servicios_App .Barra_Busqueda h3{
+    color: #FFFF00;
+    font-size: 50px;
+}
+.Contenedor_Servicios_App .Barra_Busqueda span{
+    color: #FFf;
+    font-size: 50px;
+}
+.Contenedor_Servicios_App .Barra_Busqueda .Input_Btn{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.Contenedor_Servicios_App .Barra_Busqueda .Input_Btn input{
+    color: #FFf;
+    background: transparent;
+    border: 2px solid #fff;
+    width: 80%;
+    height: 40px;
+    border-right: none;
+    border-radius: 25px 0px 0px 25px;
+    outline: none;
+    padding-left: 25px;
+}
+.Contenedor_Servicios_App .Barra_Busqueda .Input_Btn button{
+    color: #FFf;
+    background: transparent;
+    border: 2px solid #fff;
+    width: 20%;
+    height: 40px;
+    margin: 25px auto;
+    border-left: none;
+    border-radius: 0px 25px 25px 0px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s all linear;
+    font-size: 15px;
+    font-weight: bold;
+}
+.Contenedor_Servicios_App .Barra_Busqueda .Input_Btn button:hover{
+    background: #FFFF00;
+    color: black;
+}
+.Contenedor_Servicios_App .Contenedor_Servicios{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+                                                                /* Opciones */
+
+
+.Contenedor_CajitaOpciones_App{
+    display: flex;
+    justify-Content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Contenedor_CajitaOpciones_App .Cajita{
+    width: 15%;
+    height: 100px;
+    border-radius: 15px;
+    border: 2px solid #FFFF00;
+    text-transform: uppercase;
+}
+.Contenedor_CajitaOpciones_App .Cajita .historial{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.Contenedor_CajitaOpciones_App .TemaOpcion{
+    display: flex;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.Contenedor_CajitaOpciones_App  h5{
+    padding-left: 10px;
+    color: gray;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.Contenedor_CajitaOpciones_App .Cajita .TemaOpcion h3:nth-child(1){
+    color: #FFFF00;
+}
+.Contenedor_CajitaOpciones_App .Cajita .TemaOpcion h3:nth-child(2){
+    color: #FFF;
+}
+
+
+
+                                                            /* Formulario */
+
+
+.Contenedor_Formulario_App{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #FFFF00;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.Contenedor_Formulario_App .Tema_Formulario{
+    text-align: center;
+    text-transform: uppercase;
+}
+.Contenedor_Formulario_App .Tema_Formulario h1:nth-child(1){
+    color: #FFFF00;
+}
+.Contenedor_Formulario_App .Tema_Formulario h1:nth-child(2){
+    color: #FFF;
+}
+.Contenedor_Formulario_App .Tema_Formulario h1:nth-child(3){
+    color: #FFFF00;
+}
+.Contenedor_Formulario_App .AllCajas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.Contenedor_Formulario_App .Caja_Formulario{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 49%;
+    border: 2px solid #FFFF00;
+   
+}
+.Contenedor_Formulario_App .Caja_Formulario .TituloFormulario{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #FFFF00;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+}
+.Contenedor_Formulario_App .Caja_Formulario .TituloFormulario h3:nth-child(1){
+    color: #FFFF00;
+}
+.Contenedor_Formulario_App .Caja_Formulario .TituloFormulario h3:nth-child(2){
+    color: #fff;
+}
+.Contenedor_Formulario_App .Caja_Formulario input{
+    width: 80%;
+    height: 25px;
+    margin: 5px auto;
+    background:#FFf;
+    border: none;
+    border-radius: 5px;
+}
+.Contenedor_Formulario_App button{
+    width: 50%;
+    margin: 0 auto;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFF00;
+    background: transparent;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Contenedor_Formulario_App button span{
+    color: #fff;
 }

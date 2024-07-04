@@ -22,7 +22,7 @@ export function AppEasyBank(){
         <div className="ContenedorApp">
             {
                 USuario.Estado == "exitoso" ?
-                    <GeneralApp/>
+                    <GeneralApp source={USuario}/>
                 :
                 <h1>Cuenta incorrecta</h1>
             }

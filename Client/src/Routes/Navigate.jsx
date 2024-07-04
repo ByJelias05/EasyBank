@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route,} from "react-router-dom"
 import {App} from "../Pages/AppLanding"
-import { AppEasyBank } from "../Pages/AppEasyBankA"
+import { AppEasyBank } from "../Pages/AppEasyBank"
 
 
 export function Navigate(){
