@@ -76,9 +76,15 @@ app.post("/Login", (req, res) =>{
     db.query("SELECT * FROM usuario WHERE (CorreoEasybank = ? AND ContraseñaEasybank = ?)", [correo, contraseña], (error, result) =>{
         if(error){
             throw error
+            
         }else{
-            res.send({data: result, estado: 'exitoso'})
-            console.log("Sesion iniciada")
+            
+            console.log(result)
+            if(result.length == 0){
+                res.send({data: result, estado: 'Correo y contraseña incorrectos'})
+            }else{
+                res.send({data: result, estado: 'exitoso'})
+            }
         }
     })
 })

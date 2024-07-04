@@ -16,9 +16,10 @@ export function CreateUser(){
 
     const BtnCrearCuenta = useRef(null);
 
-    const [Nombre, setNombre] = useState('');
 
-    const [Condicion, setCondicion] = useState(false);
+    useEffect(() =>{
+        BtnPaso1.current.classList.add("ActivePaso")
+    },[])
 
     const OrdenarPorPasos = (paso) =>{
         setPasoActual(paso)
@@ -134,7 +135,7 @@ export function CreateUser(){
 
                         <div className="Caja_infoPaso">
                             <input type="text" name="CorreoEasyBank" placeholder="Crea tu correo de easy bank"/>
-                            <input type="text" name="Password" placeholder="Crea tu contraseña de easy bank"/>
+                            <input type="password" name="Password" placeholder="Crea tu contraseña de easy bank"/>
                             <input type="text" name="RepetirPassword" onChange={(e) =>{setRepiteContraseña(e.currentTarget.value)}} placeholder="Repite la contraseña"/>
                         </div>
 

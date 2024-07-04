@@ -195,6 +195,7 @@
 
 .Caja_numero_Pasos h1{
     font-size: 15px;
+    user-select: none;
 }
 
 .Caja_numero_Pasos:hover{

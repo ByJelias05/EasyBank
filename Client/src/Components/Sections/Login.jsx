@@ -22,7 +22,12 @@ export function Login({Menu}){
             contraseña: Contraseña
 
         }).then((response) => {
-            alert(response.data.estado);
+            const Id = response.data.data[0].Id;
+            const Estado = response.data.estado;
+            localStorage.setItem("UserEasyBnk", JSON.stringify({Id, Estado}));
+            if(response.data.estado == "exitoso"){
+                window.location.href = "http://localhost:5173/EasyBank"
+            }
         })
     }
 

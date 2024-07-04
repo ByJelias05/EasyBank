@@ -1,5 +1,6 @@
 import {BrowserRouter, Routes, Route,} from "react-router-dom"
 import {App} from "../Pages/AppLanding"
+import { AppEasyBank } from "../Pages/AppEasyBankA"
 
 
 export function Navigate(){
@@ -8,7 +9,8 @@ export function Navigate(){
         <BrowserRouter>
             <Routes>
                 <Route path="/" Component={App}/>
-              
+                <Route path="/EasyBank" Component={AppEasyBank}/>
+                <Route path="*" element={"Ruede mio y excusame 🤣"}/>
             </Routes>
         </BrowserRouter>
     )
